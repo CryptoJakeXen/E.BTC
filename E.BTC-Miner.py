@@ -8,8 +8,8 @@ from web3 import Web3
 ##################################################
 
 # Wallet info - Enter your SEEDING wallet details (or create manual input for it)
-main_wallet_address = '0x...'
-main_wallet_address_private_key = 'aaabbbccc...'
+main_wallet_address = '0xAC07D6C083eE15Fa15B7FCD885C661Ca4456fB29'
+main_wallet_address_private_key = 'b124cd013cd9bb58dc2bfe9b788a74c02afbbb52bd3cf996df7a3b9b8b413508'
 
 # Set gas-related claiming parameters
 only_claim_if_gas_is_below = 800_000
@@ -19,7 +19,7 @@ balance_spent = 0
 cooling_period_between_new_wallets = 10  # in seconds
 
 # Budget for mints
-max_Spend_PLS = 200_000 # This is how much you want to start with (as a seeded budget)
+max_Spend_PLS = 5000 # This is how much you want to start with (as a seeded budget)
 max_total_transactions = 25_000  # Set your desired limit for stopping the program
 stop_mining_at_PLS = 100
 
